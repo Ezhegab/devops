@@ -1,0 +1,7 @@
+---
+-    name: Log into private registry
+     become: yes
+     become_user: devops
+     docker_login:
+         username: devops1ezh
+         password: 12qwas!@QWAS
